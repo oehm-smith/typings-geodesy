@@ -11,6 +11,17 @@ interface GML_3_2_1_TimePositionType {
     value: array<string>
 }
 
+interface GML_3_2_1_TimeInstant {
+    timeInstant: string,
+}
+
+interface GML_3_2_1_TimePeriod {
+    beginPosition: string,
+    endPosition?: string
+}
+
+type GML_3_2_1_TimePrimitivePropertyType = GML_3_2_1_TimeInstant | GML_3_2_1_TimePeriod;
+
 interface GML_3_2_1_ReferenceType {
     owns: boolean,
     href: string
