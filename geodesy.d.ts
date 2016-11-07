@@ -39,7 +39,7 @@ interface HumiditySensor {
     calibrationDate: GML_3_2_1_TimePositionType,
     validTime: GML_3_2_1_TimePrimitivePropertyType,
     // SensorType
-    type: GML_3_2_1s_.CodeType
+    type: GML_3_2_1_CodeType
     // AbstractGMLType
     description: GML_3_2_1_StringOrRefType
     descriptionReference: GML_3_2_1_ReferenceType
