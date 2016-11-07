@@ -21,18 +21,18 @@ interface HumiditySensor {
     accuracyPercentRelativeHumidity: number,
     aspiration: string,
     notes: string,
-    # .BaseSensorEquipmentType
+    // .BaseSensorEquipmentType
     manufacturer: string,  
     serialNumber: string,
     heightDiffToAntenna: number,
     calibrationDate: GML_3_2_1_TimePositionType,
     validTime: GML_3_2_1_TimePrimitivePropertyType,
-    # SensorType
+    // SensorType
     type: GML_3_2_1s_.CodeType
-    # AbstractGMLType
+    // AbstractGMLType
     description: GML_3_2_1_StringOrRefType
     descriptionReference: GML_3_2_1_ReferenceType
-    # Other (don't know)
+    // Other (don't know)
     extension: any
     identifier: GML_3_2_1_CodeType
     remarks: string
